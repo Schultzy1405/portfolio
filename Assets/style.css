@@ -1,0 +1,11 @@
+h1 {
+    font-size: 40px;
+}
+
+nav ul li {
+    display:flex;
+    flex-direction: row;
+    float: right;
+    
+    
+}
