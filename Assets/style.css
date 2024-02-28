@@ -1,11 +1,118 @@
-h1 {
-    font-size: 40px;
+body {
+    background-color: rgb(225, 247, 250);
 }
-
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(15, 15, 15, 0.37);
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    border-bottom-style: solid;
+    border-color: green;
+    border-width: 5px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
 nav ul li {
     display:flex;
-    flex-direction: row;
-    float: right;
-    
-    
+    float: inline-start;
+    margin: 4px;
+    font-size: 26px;
+    text-decoration: underline;
+    color: teal;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    width: 200px;
+    background-color: teal;
+    color: darkred;
+    padding: 5px;
+    border-radius:0 0 20px;
+}
+section {
+    display: flex;
+
+}
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    border-right-style: solid;
+    border-color: rgb(29, 58, 155);
+    border-width: 5px;
+    text-decoration: underline;
+    color: teal;
+    font-size: 36px;
+    padding: 4px;
+    margin: 4px;
+    width: 25%;
+}
+.image-container {
+    position: relative;
+}
+.background-image {
+    width: 100%;
+    height: 150px;
+}
+.overlay-text {
+    background-color:rgba(6, 113, 121, 0.5);
+  padding:20px;
+  text-align:center;
+  position: absolute;
+  top:-260%;
+  right: 0px;
+  font-size: 20px;
+  border-radius: 15px 0px 0px 0px;
+  color: rgb(11, 156, 84);
+  text-decoration: underline;
+}
+#about {
+    display: flex;
+    height: 150px;  
+}
+#about-text {   
+    display: flex;
+    margin: 30px;
+    padding: 5px;
+    width: 50%;
+    font-size: large;
+}
+.Horiseon-Marketing {   
+    display: block;   
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    opacity: 80%;
+}
+.Horiseon-Marketing:hover {
+    opacity: 100%;
+}
+#work {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+#contact {
+    display: flex;
+    height: 150px;  
+}
+.Phone, .Github, .Email{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 5px;
+    height: 10px;
 }
